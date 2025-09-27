@@ -1,0 +1,113 @@
+[
+	// Base terrains
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [70, 138, 216],
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Considered [Desirable] when determining start locations <on water maps>",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+    {
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [0, 171, 169],
+		"uniques": ["Fresh water",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"],
+	},
+    {
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [102, 102, 102],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
+	},
+    {
+		"name": "Arctic",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [179, 202, 199], 
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [1]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Tundra] when adjacent to [River]",]
+	},
+    {
+		"name": "Tundra",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [184, 92, 0], 
+		"uniques": [
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.7] and [-0.5] and humidity between [0] and [1]",
+            ]
+	},
+    {
+		"name": "Continental",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [80, 147, 138], 
+		"uniques": [
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.4] and [-0.3] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.3] and [-0.2] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.2] and [-0.1] and humidity between [0] and [1]",
+            ]
+	},
+    {
+		"name": "Temperate",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [63, 175, 70], 
+		"uniques": [
+            "Occurs at temperature between [-0.1] and [0] and humidity between [0] and [1]",
+            "Occurs at temperature between [0] and [0.1] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.2] and [0.3] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.3] and [0.4] and humidity between [0] and [1]",
+            ]
+	},
+    {
+		"name": "Arid",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [255, 212, 40], 
+		"uniques": [
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [1]",
+            ]
+	},
+    {
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [255, 233, 148], 
+		"uniques": [
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [1]",
+            ]
+	},
+]
