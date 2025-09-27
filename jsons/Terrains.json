@@ -122,7 +122,7 @@
             ]
 	},
     {
-		"name": "Desert",
+		"name": "Hot Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [255, 233, 148], 
