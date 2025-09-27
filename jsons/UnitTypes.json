@@ -1,0 +1,26 @@
+[
+    {
+         "name": "Civilian",
+         "movementType": "Land"
+    },
+    {
+         "name": "Sword",
+         "movementType": "Land"
+    },
+    {
+         "name": "Anti-Cavalry",
+         "movementType": "Land"
+    },
+    {
+         "name": "Ranged",
+         "movementType": "Land"
+    },
+    {
+         "name": "Skirmisher",
+         "movementType": "Land"
+    },
+    {
+         "name": "Siege",
+         "movementType": "Land"
+    },
+]
