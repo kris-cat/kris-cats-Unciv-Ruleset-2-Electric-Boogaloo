@@ -75,7 +75,8 @@
 		"RGB": [184, 92, 0], 
 		"uniques": [
             "Occurs at temperature between [-0.8] and [-0.6] and humidity between [0.3] and [1]",
-			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Flood plains] when adjacent to [River]",
 		]
 	},
 	{
@@ -85,7 +86,8 @@
 		"RGB": [175, 208, 149], 
 		"uniques": [
             "Occurs at temperature between [-0.6] and [0.1] and humidity between [0.3] and [0.5]",
-			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
+			"Becomes [Flood plains] when adjacent to [River]",
             ]
 	},
     {
@@ -120,6 +122,7 @@
 		"uniques": [
             "Occurs at temperature between [0.1] and [0.5] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.4]",
+			"Becomes [Flood plains] when adjacent to [River]",
             ]
 	},
 	{
@@ -141,6 +144,7 @@
 		"uniques": [
             "Occurs at temperature between [0.1] and [0.5] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [0.5] and [1] and humidity between [0] and [0.3]",
+			"Becomes [Flood plains] when adjacent to [River]",
             ]
 	},
 	{
