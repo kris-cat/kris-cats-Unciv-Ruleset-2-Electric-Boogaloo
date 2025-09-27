@@ -108,20 +108,9 @@
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.8] and [1]",
             "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [1]",
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [0.6]",
-			//"Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [0.6] <within [3] tiles of a [non-[Coast]]>",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
-	//{
-	//	"name": "Mediterranean",
-	//	"type": "Land",
-	//	"movementCost": 1,
-	//	"RGB": [187, 227, 61], 
-	//	"uniques": [
-    //        "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [0.6] <within [3] tiles of a [Coast]>",
-	//		"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
-    //        ]
-	//},
     {
 		"name": "Arid",
 		"type": "Land",
@@ -149,8 +138,8 @@
 		"movementCost": 1,
 		"RGB": [255, 233, 148], 
 		"uniques": [
-            "Occurs at temperature between [0.1] and [0.7] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.7] and [1] and humidity between [0] and [0.3]",
+            "Occurs at temperature between [0.1] and [0.6] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.6] and [1] and humidity between [0] and [0.3]",
             ]
 	},
 	{
