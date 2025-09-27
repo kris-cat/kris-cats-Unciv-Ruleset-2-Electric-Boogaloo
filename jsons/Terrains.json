@@ -118,7 +118,7 @@
 		"movementCost": 2,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"occursOn": ["Arctic","Tundra","Continental","Temperate","Arid","Desert"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
