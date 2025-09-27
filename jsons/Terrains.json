@@ -203,6 +203,66 @@
 			"[-1] to Fertility for Map Generation",]
 	},
 	{
+		"name": "Marsh",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Temperate"],
+		"uniques": [
+			"Rare feature",
+			"[-2] to Fertility for Map Generation",]
+	},
+	{
+		"name": "Oasis",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Hot Desert"],
+		"uniques": [
+			"Fresh water", "Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Flood plains",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"overrideStats": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Tundra","Steppe","Arid","Hot Desert","Cold Desert"],
+		"uniques": [
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations",
+		]
+	},
+	{
+		"name": "Ice",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": ["Ocean", "Coast"],
+		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+					"[-1] to Fertility for Map Generation",
+					"Considered [Undesirable] when determining start locations"]
+	},
+	{
+		"name": "Atoll",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
+	},
+	{
         "name": "River",
         "type": "TerrainFeature",
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
