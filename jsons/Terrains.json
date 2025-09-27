@@ -40,6 +40,15 @@
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},
+	{
+		"name": "Alpine",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [178, 178, 178], 
+		"uniques": [
+			"Must be adjacent to [2] [Mountain] tiles"
+		]
+	},
     {
 		"name": "Arctic",
 		"type": "Land",
