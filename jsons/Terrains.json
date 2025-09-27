@@ -95,9 +95,20 @@
 		"movementCost": 1,
 		"RGB": [255, 212, 40], 
 		"uniques": [
-            "Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [1]",
-            "Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [1]",
-            "Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.5]",
+            "Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [0.5]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.5]",
+            ]
+	},
+	{
+		"name": "Subtropical",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [94, 185, 30], 
+		"uniques": [
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [1]",
+            "Occurs at temperature between [0.6] and [0.7] and humidity between [0.5] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.5] and [1]",
             ]
 	},
     {
@@ -114,7 +125,7 @@
 		"name": "Tropical",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [187, 277, 61], 
+		"RGB": [70, 138, 26], 
 		"uniques": [
             "Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
             "Occurs at temperature between [0.9] and [1] and humidity between [0.5] and [1]",
