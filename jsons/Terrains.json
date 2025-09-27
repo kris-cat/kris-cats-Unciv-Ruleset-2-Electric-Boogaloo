@@ -75,6 +75,7 @@
 		"RGB": [184, 92, 0], 
 		"uniques": [
             "Occurs at temperature between [-0.8] and [-0.6] and humidity between [0] and [1]",
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
 		]
 	},
 	{
