@@ -43,7 +43,7 @@
 		"name": "Alpine",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [178, 178, 178], 
+		"RGB": [153, 153, 153], 
 		"uniques": [
 		]
 	},
