@@ -57,7 +57,7 @@
 		"movementCost": 1,
 		"RGB": [222, 220, 230], 
 		"uniques": [
-			"Occurs at temperature between [-0.6] and [0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.6] and [0.1] and humidity between [0] and [0.3]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",]
 	},
@@ -76,7 +76,7 @@
 		"movementCost": 1,
 		"RGB": [175, 208, 149], 
 		"uniques": [
-            "Occurs at temperature between [-0.6] and [0.2] and humidity between [0.3] and [0.5]",
+            "Occurs at temperature between [-0.6] and [0.1] and humidity between [0.3] and [0.5]",
             ]
 	},
     {
@@ -96,7 +96,7 @@
 		"RGB": [63, 175, 70], 
 		"uniques": [
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.8] and [1]",
-            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.5] and [1]",
+            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [1]",
             ]
 	},
     {
@@ -105,7 +105,8 @@
 		"movementCost": 1,
 		"RGB": [255, 212, 40], 
 		"uniques": [
-            "Occurs at temperature between [0.2] and [1] and humidity between [0.3] and [0.5]",
+            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.7] and [1] and humidity between [0.3] and [0.4]",
             ]
 	},
 	{
@@ -114,8 +115,8 @@
 		"movementCost": 1,
 		"RGB": [94, 185, 30], 
 		"uniques": [
-            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.5] and [1]",
-            "Occurs at temperature between [0.8] and [1] and humidity between [0.5] and [0.6]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [1]",
+            "Occurs at temperature between [0.8] and [1] and humidity between [0.4] and [0.5]",
             ]
 	},
     {
@@ -124,7 +125,8 @@
 		"movementCost": 1,
 		"RGB": [255, 233, 148], 
 		"uniques": [
-            "Occurs at temperature between [0.1] and [1] and humidity between [0] and [0.3]",
+            "Occurs at temperature between [0.1] and [0.7] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.7] and [1] and humidity between [0] and [0.3]",
             ]
 	},
 	{
@@ -133,7 +135,7 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 26], 
 		"uniques": [
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.6] and [1]",
+			"Occurs at temperature between [0.8] and [1] and humidity between [0.5] and [1]",
             ]
 	},
 	//Features
