@@ -1,0 +1,8 @@
+{
+    "isBaseRuleset": true
+    "constants": {
+        "cityStrengthFromTechsMultiplier": 1.0,
+        "cityStrengthFromTechsExponent": 1.0,
+        "cityStrengthFromTechsFullMultiplier": 1.0,
+    }
+}
