@@ -128,8 +128,8 @@
 		"movementCost": 1,
 		"RGB": [255, 212, 40], 
 		"uniques": [
-            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.7] and [1] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.1] and [0.6] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.6] and [1] and humidity between [0.3] and [0.4]",
             ]
 	},
 	{
