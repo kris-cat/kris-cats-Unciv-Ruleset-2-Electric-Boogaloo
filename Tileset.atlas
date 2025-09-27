@@ -39,7 +39,7 @@ TileSets/FantasyHex/Tiles/Temperate
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tropical
+TileSets/FantasyHex/Tiles/Subtropical
   rotate: false
   xy: 204, 4
   size: 32, 28
