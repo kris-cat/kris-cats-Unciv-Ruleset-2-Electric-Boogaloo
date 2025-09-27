@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 10,
+        "citySound": "cityClassical",
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Post-Classical era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 20,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 5,
+        "startPercent": 10,
+        "citySound": "cityMedieval",
+        "iconRGB": [190, 62, 128]
+    }
+    {
+        "name": "Pre-Modern era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 20,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 10,
+        "citySound": "cityRenaissance",
+        "iconRGB": [190, 62, 128]
+    }
+    {
+        "name": "Modern era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 20,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 7,
+        "startPercent": 10,
+        "citySound": "cityIndustrial",
+        "iconRGB": [190, 62, 128]
+    }
+    {
+        "name": "Contemporary Era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 20,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 8,
+        "startPercent": 10,
+        "citySound": "cityModern",
+        "iconRGB": [190, 62, 128]
+    }
+    {
+        "name": "Future Era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Warrior",
+        "startingGold": 20,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 9,
+        "startPercent": 10,
+        "citySound": "cityFuture",
+        "iconRGB": [190, 62, 128]
+    }
+]
