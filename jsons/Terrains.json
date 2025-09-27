@@ -129,6 +129,23 @@
 					"Considered [Production] when determining start locations",]
 	},
 	{
+		"name": "Forest",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Temperate","Continental","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[+1 Food, -1 Production] <in [Hill] tiles>",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",]
+	},
+	{
         "name": "River",
         "type": "TerrainFeature",
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
