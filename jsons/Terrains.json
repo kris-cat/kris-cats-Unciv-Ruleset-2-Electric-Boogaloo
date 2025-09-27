@@ -39,6 +39,14 @@
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},
+	{
+		"name": "Alpine",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [178, 178, 178], 
+		"uniques": [
+		]
+	},
     {
 		"name": "Arctic",
 		"type": "Land",
@@ -76,6 +84,7 @@
 		"RGB": [175, 208, 149], 
 		"uniques": [
             "Occurs at temperature between [-0.6] and [0.1] and humidity between [0.3] and [0.5]",
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
 	},
     {
@@ -86,7 +95,7 @@
 		"uniques": [
             "Occurs at temperature between [-0.6] and [-0.2] and humidity between [0.5] and [1]",
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.5] and [0.8]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
 	},
     {
@@ -97,7 +106,7 @@
 		"uniques": [
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.8] and [1]",
             "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [1]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
 	},
     {
@@ -118,7 +127,7 @@
 		"uniques": [
             "Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [1]",
             "Occurs at temperature between [0.8] and [1] and humidity between [0.4] and [0.5]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
 	},
     {
@@ -138,17 +147,8 @@
 		"RGB": [70, 138, 26], 
 		"uniques": [
 			"Occurs at temperature between [0.8] and [1] and humidity between [0.5] and [1]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
-	},
-	{
-		"name": "Alpine",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [178, 178, 178], 
-		"uniques": [
-			"Becomes [Hill] when adjacent to [Mountain]"
-		]
 	},
 	//Features
 	{
