@@ -106,8 +106,18 @@
 		"movementCost": 1,
 		"RGB": [255, 233, 148], 
 		"uniques": [
-            "Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [1]",
-            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.5]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.5]",
+            ]
+	},
+	{
+		"name": "Tropical",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [187, 277, 61], 
+		"uniques": [
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.5] and [1]",
             ]
 	},
 	//Features
