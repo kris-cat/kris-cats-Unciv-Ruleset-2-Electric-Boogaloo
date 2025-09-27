@@ -21,7 +21,6 @@
 		"name": "Lakes",
 		"type": "Water",
 		"food": 2,
-		"gold": 1,
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
@@ -46,7 +45,7 @@
 		"movementCost": 1,
 		"RGB": [178, 178, 178], 
 		"uniques": [
-			"Must be adjacent to [2] [Mountain] tiles"
+			"Becomes [Hill] when adjacent to [Mountain]"
 		]
 	},
     {
@@ -96,6 +95,7 @@
 		"uniques": [
             "Occurs at temperature between [-0.6] and [-0.2] and humidity between [0.5] and [1]",
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.5] and [0.8]",
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
     {
@@ -106,6 +106,7 @@
 		"uniques": [
             "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.8] and [1]",
             "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [1]",
+			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
     {
