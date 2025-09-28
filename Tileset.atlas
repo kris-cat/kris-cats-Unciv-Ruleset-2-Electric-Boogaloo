@@ -1,54 +1,61 @@
 
 Tileset.png
-size: 64, 256
+size: 512, 64
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Arctic
   rotate: false
-  xy: 4, 220
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Arid
+  rotate: false
+  xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Continental
   rotate: false
-  xy: 4, 184
+  xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hot Desert
+TileSets/FantasyHex/Tiles/Semiarid
   rotate: false
-  xy: 4, 148
+  xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Steppe
+TileSets/FantasyHex/Tiles/Subarctic
   rotate: false
-  xy: 4, 112
+  xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Subtropical
   rotate: false
-  xy: 4, 76
+  xy: 204, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Temperate
   rotate: false
-  xy: 4, 40
+  xy: 244, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra
+TileSets/FantasyHex/Tiles/Tropical
   rotate: false
-  xy: 4, 4
+  xy: 284, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
