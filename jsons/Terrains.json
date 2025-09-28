@@ -214,7 +214,6 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.5]",
-			"[+1 Production, -1 Food] <in [Hill] tiles>",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
