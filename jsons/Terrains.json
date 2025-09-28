@@ -58,34 +58,27 @@
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",]
 	},
-	{
-		"name": "Cold Desert",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [222, 220, 230], 
-		"uniques": [
-			"Occurs at temperature between [-0.8] and [0.1] and humidity between [0] and [0.3]",
-            "Always Fertility [-1] for Map Generation",
-            "Considered [Undesirable] when determining start locations",]
-	},
     {
-		"name": "Tundra",
+		"name": "Subarctic",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [184, 92, 0], 
 		"uniques": [
-            "Occurs at temperature between [-0.8] and [-0.6] and humidity between [0.3] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.6] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0] and [0.4]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
 			"Becomes [Flood plains] when adjacent to [River]",
 		]
 	},
 	{
-		"name": "Steppe",
+		"name": "Semiarid",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [175, 208, 149], 
 		"uniques": [
-            "Occurs at temperature between [-0.6] and [0.1] and humidity between [0.3] and [0.5]",
+            "Occurs at temperature between [-0.1] and [0.1] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.5] and humidity between [0.3] and [0.5]",
+			"Occurs at temperature between [0.5] and [1] and humidity between [0.4] and [0.5]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
 			"Becomes [Flood plains] when adjacent to [River]",
             ]
@@ -96,8 +89,9 @@
 		"movementCost": 1,
 		"RGB": [80, 147, 138], 
 		"uniques": [
-            "Occurs at temperature between [-0.6] and [-0.2] and humidity between [0.5] and [1]",
-            "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.5] and [0.8]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.4] and [1]",
+            "Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.1] and [0.1] and humidity between [0.4] and [0.7]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
@@ -107,22 +101,9 @@
 		"movementCost": 1,
 		"RGB": [63, 175, 70], 
 		"uniques": [
-            "Occurs at temperature between [-0.2] and [0.1] and humidity between [0.8] and [1]",
-            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.4] and [1]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.1] and [0.3] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.1] and [0.1] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.1] and [0.7] and humidity between [0.5] and [1]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
-            ]
-	},
-    {
-		"name": "Arid",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [255, 212, 40], 
-		"uniques": [
-            "Occurs at temperature between [0.1] and [0.5] and humidity between [0.2] and [0.3]",
-			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.4]",
-			"Becomes [Flood plains] when adjacent to [River]",
             ]
 	},
 	{
@@ -132,18 +113,18 @@
 		"RGB": [94, 185, 30], 
 		"uniques": [
             "Occurs at temperature between [0.7] and [0.8] and humidity between [0.5] and [1]",
-            "Occurs at temperature between [0.8] and [1] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.8] and [1] and humidity between [0.5] and [0.6]",
 			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
             ]
 	},
     {
-		"name": "Hot Desert",
+		"name": "Arid",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [255, 233, 148], 
 		"uniques": [
-            "Occurs at temperature between [0.1] and [0.5] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.5] and [1] and humidity between [0] and [0.3]",
+            "Occurs at temperature between [0.1] and [0.5] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [0.5] and [1] and humidity between [0] and [0.4]",
 			"Becomes [Flood plains] when adjacent to [River]",
             ]
 	},
