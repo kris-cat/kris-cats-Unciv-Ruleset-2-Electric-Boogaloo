@@ -174,10 +174,9 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Subarctic","Continental","Alpine","Hill"],
+		"occursOn": ["Subarctic","Continental","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"Occurs at temperature between [-0.8] and [-0.1] and humidity between [0] and [1]",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
