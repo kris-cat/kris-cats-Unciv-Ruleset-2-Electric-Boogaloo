@@ -163,7 +163,7 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Subarctic","Continental","Hill"],
+		"occursOn": ["Subarctic","Continental","Alpine","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [-0.8] and [-0.1] and humidity between [0] and [1]",
@@ -181,11 +181,30 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Temperate","Continental","Hill"],
+		"occursOn": ["Temperate","Continental","Alpine","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [-0.3] and [0.7] and humidity between [0] and [1]",
 			"[+1 Food, -1 Production] <in [Hill] tiles>",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",]
+	},
+	{
+		"name": "Savannah",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Semiarid","Arid","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.5]",
+			"[+1 Food, -1 Production] <in [Hill] tiles>",
+			"[+1 Food] <in [Arid] tiles>",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -227,6 +246,21 @@
 		"unbuildable": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Arid"],
+		"uniques": [
+			"Fresh water", "Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Waterhole",
+		"type": "TerrainFeature",
+		"food": 2,
+		"production": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Semiarid"],
 		"uniques": [
 			"Fresh water", "Rare feature",		
 			"Always Fertility [4] for Map Generation",		
