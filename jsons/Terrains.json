@@ -178,7 +178,6 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [-0.8] and [-0.1] and humidity between [0] and [1]",
-			"[+1 Food, -1 Production] <in [Hill] tiles>",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -196,7 +195,6 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [-0.3] and [0.7] and humidity between [0] and [1]",
-			"[+1 Food, -1 Production] <in [Hill] tiles>",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -285,6 +283,7 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Arid","Semiarid","Subarctic"],
 		"uniques": [
+			"[+1 Food] <in [Arid] tiles>",
 			"Always Fertility [5] for Map Generation",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations",
