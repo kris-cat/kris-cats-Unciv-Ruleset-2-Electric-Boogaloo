@@ -42,6 +42,8 @@
 	{
 		"name": "Alpine",
 		"type": "Land",
+		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 153, 153], 
 		"uniques": [
@@ -202,7 +204,7 @@
 	},
 	{
 		"name": "Savannah",
-		"type": "TerrainFeature",,
+		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 2,
 		"unbuildable": true,
