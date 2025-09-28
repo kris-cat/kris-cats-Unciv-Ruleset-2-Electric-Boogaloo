@@ -104,8 +104,9 @@
 			"Occurs at temperature between [-0.1] and [0] and humidity between [0.5] and [1]",
 			"Occurs at temperature between [0] and [0.1] and humidity between [0.3] and [1]",
 			"Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [1]",
-			"Occurs at temperature between [0.2] and [0.5] and humidity between [0.2] and [0.8]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.3] and [0.7]",
+			"Occurs at temperature between [0.2] and [0.3] and humidity between [0.1] and [0.9]",
+			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.2] and [0.8]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.3] and [0.7]",
 			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.4] and [0.6]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
             ]
@@ -117,9 +118,9 @@
 		"movementCost": 1,
 		"RGB": [175, 208, 149], 
 		"uniques": [
-            "Occurs at temperature between [0.2] and [0.4] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.1] and [0.2]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.5] and humidity between [0] and [0.1]",
+			"Occurs at temperature between [0.3] and [0.6] and humidity between [0.1] and [0.2]",
+			"Occurs at temperature between [0.4] and [0.7] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.4] and [0.5]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
@@ -134,9 +135,9 @@
 		"movementCost": 1,
 		"RGB": [94, 185, 30], 
 		"uniques": [
-			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.8] and [0.9]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.2] and [0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.3] and [0.6] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [0.4] and [0.7] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.5] and [0.6]",
 			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
@@ -149,7 +150,7 @@
 		"RGB": [255, 233, 148], 
 		"uniques": [
 			"[+1 Food] <in [River] tiles>",
-            "Occurs at temperature between [0.4] and [1] and humidity between [0] and [0.1]",
+            "Occurs at temperature between [0.5] and [1] and humidity between [0] and [0.1]",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0.1] and [0.2]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [0.8] and [1] and humidity between [0.3] and [0.4]",
@@ -163,7 +164,7 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 26], 
 		"uniques": [
-			"Occurs at temperature between [0.4] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [1] and humidity between [0.9] and [1]",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0.8] and [0.9]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0.8] and [1] and humidity between [0.6] and [0.7]",
