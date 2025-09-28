@@ -276,8 +276,7 @@
 	{
 		"name": "Waterhole",
 		"type": "TerrainFeature",
-		"food": 2,
-		"production": 1,
+		"food": 3,
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
