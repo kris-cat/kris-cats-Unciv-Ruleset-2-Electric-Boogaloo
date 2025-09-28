@@ -275,6 +275,21 @@
 			"Considered [Desirable] when determining start locations"]
 	},
 	{
+		"name": "Tundra Bog",
+		"type": "TerrainFeature",
+		"food": 2,
+		"faith": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Subarctic"],
+		"uniques": [
+			"Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 2,
