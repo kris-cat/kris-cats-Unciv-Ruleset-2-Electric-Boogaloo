@@ -32,44 +32,58 @@ TileSets/FantasyHex/Tiles/Forest
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Semiarid
+TileSets/FantasyHex/Tiles/Savannah
   rotate: false
-  xy: 164, 8
-  size: 32, 28
-  orig: 32, 28
+  xy: 164, 5
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Subarctic
+TileSets/FantasyHex/Tiles/Semiarid
   rotate: false
   xy: 204, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Subtropical
+TileSets/FantasyHex/Tiles/Subarctic
   rotate: false
   xy: 244, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Subtropical
+  rotate: false
+  xy: 284, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Taiga
   rotate: false
-  xy: 284, 4
+  xy: 324, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Temperate
   rotate: false
-  xy: 324, 8
+  xy: 364, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tropical
   rotate: false
-  xy: 364, 8
+  xy: 404, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Waterhole
+  rotate: false
+  xy: 444, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
