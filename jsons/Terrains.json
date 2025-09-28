@@ -194,7 +194,24 @@
 		"occursOn": ["Temperate","Continental","Alpine","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"Occurs at temperature between [-0.3] and [0.7] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.3] and [0.7] and humidity between [0.5] and [1]",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[25]% Chance to be destroyed by nukes",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",]
+	},
+	{
+		"name": "Coniferous Forest",
+		"type": "TerrainFeature",
+		"production": 1,
+		"movementCost": 2,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Temperate","Continental","Alpine","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Occurs at temperature between [-0.3] and [0.3] and humidity between [0] and [0.7]",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
