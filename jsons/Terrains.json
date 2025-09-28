@@ -81,7 +81,7 @@
 		"RGB": [175, 208, 149], 
 		"uniques": [
             "Occurs at temperature between [0.1] and [0.3] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.3] and [1] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.5]",
 			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>",
 			"Becomes [Flood plains] when adjacent to [River]",
             ]
