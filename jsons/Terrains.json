@@ -61,6 +61,7 @@
     {
 		"name": "Subarctic",
 		"type": "Land",
+		"food": 1,
 		"movementCost": 1,
 		"RGB": [184, 92, 0], 
 		"uniques": [
@@ -73,6 +74,7 @@
 	{
 		"name": "Semiarid",
 		"type": "Land",
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [175, 208, 149], 
 		"uniques": [
@@ -86,6 +88,8 @@
     {
 		"name": "Continental",
 		"type": "Land",
+		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [80, 147, 138], 
 		"uniques": [
@@ -98,6 +102,7 @@
     {
 		"name": "Temperate",
 		"type": "Land",
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [63, 175, 70], 
 		"uniques": [
@@ -109,6 +114,8 @@
 	{
 		"name": "Subtropical",
 		"type": "Land",
+		"food": 1,
+		"production": 1,
 		"movementCost": 1,
 		"RGB": [94, 185, 30], 
 		"uniques": [
@@ -131,6 +138,7 @@
 	{
 		"name": "Tropical",
 		"type": "Land",
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [70, 138, 26], 
 		"uniques": [
@@ -194,8 +202,8 @@
 	},
 	{
 		"name": "Savannah",
-		"type": "TerrainFeature",
-		"production": 1,
+		"type": "TerrainFeature",,
+		"food": 2,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
@@ -203,8 +211,7 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Occurs at temperature between [0.3] and [1] and humidity between [0.3] and [0.5]",
-			"[+1 Food, -1 Production] <in [Hill] tiles>",
-			"[+1 Food] <in [Arid] tiles>",
+			"[+1 Production, -1 Food] <in [Hill] tiles>",
 			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -232,7 +239,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Temperate"],
+		"occursOn": ["Temperate","Continental"],
 		"uniques": [
 			"Rare feature",
 			"Always Fertility [4] for Map Generation",]
