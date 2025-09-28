@@ -185,7 +185,7 @@
 			"Considered [Production] when determining start locations",]
 	},
 	{
-		"name": "Forest",
+		"name": "Deciduous Forest",
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
