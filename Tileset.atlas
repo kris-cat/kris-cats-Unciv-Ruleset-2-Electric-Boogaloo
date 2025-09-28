@@ -25,7 +25,7 @@ TileSets/FantasyHex/Tiles/Continental
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Forest
+TileSets/FantasyHex/Tiles/Deciduous Forest
   rotate: false
   xy: 4, 112
   size: 32, 31
