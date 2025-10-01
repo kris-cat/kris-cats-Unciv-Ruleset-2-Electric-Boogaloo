@@ -1,0 +1,25 @@
+[
+    //Bonus Resources
+    {
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Savannah"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [
+            
+        ]
+	},
+    {
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Savannah","Deciduous Forest","Corniferous Forest","Taiga","Subarctic"], // Tundra only if lowland
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+		"uniques": [
+            
+        ]
+	},
+]
