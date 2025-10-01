@@ -330,9 +330,8 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Subarctic","Continental","Temperate","Semiarid","Arid","Subtropical","Tropical","Alpine","Hill"],
 		"uniques": [
-			"Fresh water", "Rare feature",		
-			"Always Fertility [2] for Map Generation",
-			"Doesn't generate naturally <in tiles without [Hill]>",
+			"Fresh water", "Rare feature",
+			"Doesn't generate naturally",
 			"Considered [Food] when determining start locations",		
 			"Considered [Desirable] when determining start locations"]
 	},
