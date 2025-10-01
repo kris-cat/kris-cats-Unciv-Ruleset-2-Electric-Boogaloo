@@ -328,10 +328,11 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
-		"occursOn": ["Hill"],
+		"occursOn": ["Subarctic","Continental","Temperate","Semiarid","Arid","Subtropical","Tropical","Alpine","Hill"],
 		"uniques": [
 			"Fresh water", "Rare feature",		
-			"Always Fertility [2] for Map Generation",		
+			"Always Fertility [2] for Map Generation",
+			"Doesn't generate naturally <in tiles without [Hill]>",
 			"Considered [Food] when determining start locations",		
 			"Considered [Desirable] when determining start locations"]
 	},
