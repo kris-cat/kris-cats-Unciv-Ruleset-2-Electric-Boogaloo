@@ -321,21 +321,6 @@
 			"Considered [Desirable] when determining start locations"]
 	},
 	{
-		"name": "Water Spring",
-		"type": "TerrainFeature",
-		"food": 2,
-		"culture": 1
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.1,
-		"occursOn": ["Subarctic","Continental","Temperate","Semiarid","Arid","Subtropical","Tropical","Alpine","Hill"],
-		"uniques": [
-			"Fresh water", "Rare feature",
-			"Doesn't generate naturally",
-			"Considered [Food] when determining start locations",		
-			"Considered [Desirable] when determining start locations"]
-	},
-	{
 		"name": "Tundra Bog",
 		"type": "TerrainFeature",
 		"food": 2,
