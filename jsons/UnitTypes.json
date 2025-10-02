@@ -4,23 +4,39 @@
          "movementType": "Land"
     },
     {
-         "name": "Sword",
-         "movementType": "Land"
-    },
+        "name": "Land Melee",
+        "movementType": "Land"
+    }
     {
-         "name": "Anti-Cavalry",
-         "movementType": "Land"
-    },
+        "name": "Anti-Cavalry",
+        "movementType": "Land"
+    }
     {
-         "name": "Ranged",
-         "movementType": "Land"
-    },
+        "name": "Ranged",
+        "movementType": "Land"
+    }
     {
-         "name": "Skirmisher",
-         "movementType": "Land"
-    },
+        "name": "Skirmisher",
+        "movementType": "Land"
+    }
     {
-         "name": "Siege",
-         "movementType": "Land"
-    },
+        "name": "Siege",
+        "movementType": "Land"
+    }
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    }
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    }
+    {
+        "name": "Ranged Cavalry",
+        "movementType": "Land"
+    }
+    {
+        "name": "Scouting",
+        "movementType": "Land"
+    }
 ]
