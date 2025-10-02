@@ -38,6 +38,27 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 12,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Carpentry",
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]",
+		],
+		"shortcutKey": "L"
+	},
+	{
 		"name": "Camp",
 		"food": 1,
 		"turnsToBuild": 10,
