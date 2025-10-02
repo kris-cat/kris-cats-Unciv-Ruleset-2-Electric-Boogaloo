@@ -1,0 +1,116 @@
+[
+    //Ancient Era
+    {
+        "columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Pottery",
+				"row": 1,
+			},
+            {
+				"name": "Animal Hubandry",
+				"row": 3,
+			},
+            {
+				"name": "Carpentry",
+				"row": 5,
+			},
+            {
+				"name": "Mining",
+				"row": 7,
+			},
+		]
+    },
+    "columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Astrology",
+				"row": 1,
+                "prerequisites": ["Pottery"],
+			},
+            {
+				"name": "Irrigation",
+				"row": 2,
+                "prerequisites": ["Pottery","Animal Husbandry"],
+			},
+            {
+				"name": "The Wheel",
+				"row": 4,
+                "prerequisites": ["Animal Husbandry","Carpentry"],
+			},
+            {
+				"name": "Fishing",
+				"row": 5,
+                "prerequisites": ["Carpentry"],
+			},
+            {
+				"name": "Masonry",
+				"row": 6,
+                "prerequisites": ["Carpentry","Mining"],
+			},
+            {
+				"name": "Bronze Working",
+				"row": 7,
+                "prerequisites": ["Mining"],
+			},
+		]
+    },
+    "columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Calendar",
+				"row": 1,
+                "prerequisites": ["Astrology","Irrigation"],
+			},
+            {
+				"name": "Trade",
+				"row": 3,
+                "prerequisites": ["Irrigation","The Wheel"],
+			},
+            {
+				"name": "Sailing",
+				"row": 5,
+                "prerequisites": ["Astrology","Fishing"],
+			},
+		]
+    },
+    "columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Writing",
+				"row": 2,
+                "prerequisites": ["Calendar","Trade"],
+			},
+            {
+				"name": "Craftsmanship",
+				"row": 6,
+                "prerequisites": ["Trade","Masonry"],
+			},
+            {
+				"name": "Organised Warfare",
+				"row": 7,
+                "prerequisites": ["Masonry","Bronze Working"],
+			},
+		]
+    },
+]
