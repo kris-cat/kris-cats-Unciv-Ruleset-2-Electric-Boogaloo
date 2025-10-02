@@ -16,6 +16,14 @@
 		"hurryCostModifier": 20
 	},
 	// Ancient Era Land Units
+	{
+		"name": "Scout",
+		"unitType": "Scouting",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"attackSound": "nonmetalhit"
+	},
     {
 		"name": "Warrior",
 		"unitType": "Land Melee",
