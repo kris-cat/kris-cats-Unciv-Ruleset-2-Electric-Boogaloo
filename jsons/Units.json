@@ -15,15 +15,29 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
+	// Ancient Era Land Units
     {
 		"name": "Warrior",
-		"unitType": "Sword",
+		"unitType": "Land Melee",
 		"movement": 2,
-		"strength": 5,
+		"strength": 6,
 		"cost": 40,
 		"uniques": [
 			"Consumes [1] [Manpower]",
 		],
 		"attackSound": "nonmetalhit"
 	}
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 5,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+50]% Strength <vs [Mounted Ranged] units>"
+		],
+		"attackSound": "metalhit"
+	},
 ]
