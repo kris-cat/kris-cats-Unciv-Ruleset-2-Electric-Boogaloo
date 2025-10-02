@@ -20,7 +20,7 @@
 		"name": "Warrior",
 		"unitType": "Land Melee",
 		"movement": 2,
-		"strength": 6,
+		"strength": 10,
 		"cost": 40,
 		"uniques": [
 			"Consumes [1] [Manpower]",
@@ -29,15 +29,41 @@
 	}
 	{
 		"name": "Spearman",
-		"unitType": "Sword",
+		"unitType": "Anti-Cavalry",
 		"movement": 2,
-		"strength": 5,
+		"strength": 8,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[+50]% Strength <vs [Mounted Ranged] units>"
+			"Consumes [1] [Manpower]",
 		],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Ranged",
+		"range": 2,
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Carpentry",
+		"uniques": [
+			"Consumes [1] [Manpower]",
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Skirmisher",
+		"range": 1,
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 40,
+		"uniques": [
+			"Consumes [1] [Manpower]",
+		],
+		"attackSound": "arrow"
 	},
 ]
