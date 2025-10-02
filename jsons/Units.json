@@ -23,7 +23,6 @@
 		"cost": 40,
 		"uniques": [
 			"Consumes [1] [Manpower]",
-			"Consumes [1] [Manpower] <for [20] turns> <upon being defeated>"
 		],
 		"attackSound": "nonmetalhit"
 	}
