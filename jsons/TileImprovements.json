@@ -52,7 +52,6 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 10,
-		"techRequired": "Carpentry",
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
