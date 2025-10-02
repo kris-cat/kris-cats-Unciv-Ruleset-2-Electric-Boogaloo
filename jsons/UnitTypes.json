@@ -10,6 +10,7 @@
     {
         "name": "Anti-Cavalry",
         "movementType": "Land"
+        "uniques": ["[50]% Strength <vs [Light Cavalry] units>","[50]% Strength <vs [Heavy Cavalry] units>","[50]% Strength <vs [Ranged Cavalry] units>"]
     }
     {
         "name": "Ranged",
@@ -18,6 +19,7 @@
     {
         "name": "Skirmisher",
         "movementType": "Land"
+        "uniques": ["Can move after attacking"]
     }
     {
         "name": "Siege",
