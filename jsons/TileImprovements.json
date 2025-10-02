@@ -3,8 +3,7 @@
   {
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",
-			"Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",]
 	},
 	{
 		"name": "City ruins",
@@ -49,7 +48,7 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest"],
 		"production": 1,
 		"turnsToBuild": 10,
 		"uniques": [
