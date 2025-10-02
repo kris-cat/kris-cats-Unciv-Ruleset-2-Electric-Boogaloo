@@ -26,7 +26,8 @@
 			},
 		]
     },
-    "columnNumber": 1,
+	{
+    	"columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -65,7 +66,8 @@
 			},
 		]
     },
-    "columnNumber": 2,
+	{
+    	"columnNumber": 2,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -89,7 +91,8 @@
 			},
 		]
     },
-    "columnNumber": 3,
+	{
+    	"columnNumber": 3,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
