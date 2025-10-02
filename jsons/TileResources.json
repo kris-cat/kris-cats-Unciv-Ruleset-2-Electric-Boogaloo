@@ -1,4 +1,11 @@
 [
+	//Mechanics
+	{
+		"name": "Manpower", "resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"
+		]
+	},
     //Bonus Resources
     {
 		"name": "Cattle",
