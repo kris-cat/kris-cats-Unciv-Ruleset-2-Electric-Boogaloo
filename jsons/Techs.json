@@ -1,7 +1,22 @@
 [
     //Ancient Era
-    {
+	{
         "columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+                "name": "Agriculture",
+				"row": 5,
+				"uniques": ["Starting tech"]
+			}
+		]
+    },
+    {
+        "columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -11,23 +26,27 @@
             {
 				"name": "Pottery",
 				"row": 1,
+				"prerequisites": ["Agriculture"],
 			},
             {
 				"name": "Animal Husbandry",
 				"row": 3,
+				"prerequisites": ["Agriculture"],
 			},
             {
 				"name": "Carpentry",
 				"row": 5,
+				"prerequisites": ["Agriculture"],
 			},
             {
 				"name": "Mining",
 				"row": 7,
+				"prerequisites": ["Agriculture"],
 			},
 		]
     },
 	{
-    	"columnNumber": 1,
+    	"columnNumber": 2,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -67,7 +86,7 @@
 		]
     },
 	{
-    	"columnNumber": 2,
+    	"columnNumber": 3,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
@@ -92,7 +111,7 @@
 		]
     },
 	{
-    	"columnNumber": 3,
+    	"columnNumber": 4,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
