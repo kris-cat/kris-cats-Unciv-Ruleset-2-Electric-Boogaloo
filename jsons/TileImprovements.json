@@ -41,6 +41,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 12,
+		"techRequired": "Mining",
 		"uniques": [
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -51,6 +52,7 @@
 		"terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest"],
 		"production": 1,
 		"turnsToBuild": 10,
+		"techRequired": "Carpentry",
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
@@ -75,6 +77,7 @@
 		"name": "Pasture",
 		"production": 1,
 		"turnsToBuild": 10,
+		"techRequired": "Animal Husbandry",
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
