@@ -22,6 +22,9 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
+		"uniques": [
+			"Consumes [1] [Manpower]",
+		],
 		"attackSound": "nonmetalhit"
 	},
     {
@@ -52,8 +55,8 @@
 		"unitType": "Ranged",
 		"range": 2,
 		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 8,
+		"strength": 5,
+		"rangedStrength": 9,
 		"cost": 56,
 		"requiredTech": "Carpentry",
 		"uniques": [
@@ -66,9 +69,60 @@
 		"unitType": "Skirmisher",
 		"range": 1,
 		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 40,
+		"uniques": [
+			"Consumes [1] [Manpower]",
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Battering Ram",
+		"unitType": "Siege"
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"Can only attack [City] units",
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Scout Rider",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 8,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Consumes [1] [Manpower]",
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Heavy Chariot",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 10,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"Consumes [2] [Manpower]",
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Ranged Cavalry",
+		"range": 1,
+		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 6,
-		"cost": 40,
+		"cost": 56,
+		"requiredTech": "The Wheel",
 		"uniques": [
 			"Consumes [1] [Manpower]",
 		],
