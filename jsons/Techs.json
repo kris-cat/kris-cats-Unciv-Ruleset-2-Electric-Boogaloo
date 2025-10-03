@@ -216,7 +216,7 @@
             {
 				"name": "Recreation",
 				"row": 1,
-                "prerequisites": ["Poetry and Drama","Construction"],
+                "prerequisites": ["Drama and Poetry","Construction"],
 			},
             {
 				"name": "Engineering",
