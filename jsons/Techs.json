@@ -135,4 +135,99 @@
 			},
 		]
     },
+	{
+    	"columnNumber": 5,
+		"era": "Classical era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Spirituality",
+				"row": 1,
+                "prerequisites": ["Writing"],
+			},
+            {
+				"name": "Mathematics",
+				"row": 3,
+                "prerequisites": ["Writing"],
+			},
+			{
+				"name": "Shipbuilding",
+				"row": 5,
+                "prerequisites": ["Sailing","Craftsmanship"],
+			},
+            {
+				"name": "Iron Working",
+				"row": 6,
+                "prerequisites": ["Craftsmanship"],
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 7,
+                "prerequisites": ["Craftsmanship","Organised Warfare"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 6,
+		"era": "Classical era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Drama and Poetry",
+				"row": 1,
+                "prerequisites": ["Spirituality"],
+			},
+            {
+				"name": "Philosophy",
+				"row": 2,
+                "prerequisites": ["Spirituality","Mathematics"],
+			},
+			{
+				"name": "Currency",
+				"row": 3,
+                "prerequisites": ["Mathematics"],
+			},
+            {
+				"name": "Construction",
+				"row": 5,
+                "prerequisites": ["Mathematics","Shipbuilding","Iron Working"],
+			},
+			{
+				"name": "Military Training",
+				"row": 6,
+                "prerequisites": ["Iron Working","Horseback Riding"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 7,
+		"era": "Classical era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Recreation",
+				"row": 1,
+                "prerequisites": ["Poetry and Drama","Construction"],
+			},
+            {
+				"name": "Engineering",
+				"row": 2,
+                "prerequisites": ["Construction"],
+			},
+			{
+				"name": "Fortifications",
+				"row": 3,
+                "prerequisites": ["Military Training"],
+			},
+		]
+    },
 ]
