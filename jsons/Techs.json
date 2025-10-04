@@ -2,7 +2,7 @@
     //Ancient Era
 	{
         "columnNumber": 0,
-		"era": "Ancient era",
+		"era": "Ancient Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -17,7 +17,7 @@
     },
     {
         "columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Ancient Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -47,7 +47,7 @@
     },
 	{
     	"columnNumber": 2,
-		"era": "Ancient era",
+		"era": "Ancient Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -87,7 +87,7 @@
     },
 	{
     	"columnNumber": 3,
-		"era": "Ancient era",
+		"era": "Ancient Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -112,7 +112,7 @@
     },
 	{
     	"columnNumber": 4,
-		"era": "Ancient era",
+		"era": "Ancient Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -137,7 +137,7 @@
     },
 	{
     	"columnNumber": 5,
-		"era": "Classical era",
+		"era": "Classical Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -172,7 +172,7 @@
     },
 	{
     	"columnNumber": 6,
-		"era": "Classical era",
+		"era": "Classical Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -207,7 +207,7 @@
     },
 	{
     	"columnNumber": 7,
-		"era": "Classical era",
+		"era": "Classical Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -215,18 +215,43 @@
         [
             {
 				"name": "Recreation",
-				"row": 1,
-                "prerequisites": ["Drama and Poetry","Construction"],
+				"row": 4,
+                "prerequisites": ["Currency","Construction"],
 			},
             {
 				"name": "Engineering",
-				"row": 2,
+				"row": 5,
                 "prerequisites": ["Construction"],
 			},
 			{
 				"name": "Fortifications",
-				"row": 3,
+				"row": 7,
                 "prerequisites": ["Military Training"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 8,
+		"era": "Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Recorded History",
+				"row": 1,
+                "prerequisites": ["Drama and Poetry","Philosophy"],
+			},
+            {
+				"name": "Code of Laws",
+				"row": 2,
+                "prerequisites": ["Philosophy"],
+			},
+			{
+				"name": "Urban Architecture",
+				"row": 4,
+                "prerequisites": ["Recreation","Engineering"],
 			},
 		]
     },
