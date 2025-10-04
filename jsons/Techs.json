@@ -249,9 +249,129 @@
                 "prerequisites": ["Philosophy"],
 			},
 			{
-				"name": "Urban Architecture",
+				"name": "Urban Infrastracture",
 				"row": 4,
                 "prerequisites": ["Recreation","Engineering"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 9,
+		"era": "Post-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Theocracy",
+				"row": 1,
+                "prerequisites": ["Recorded History"],
+			},
+            {
+				"name": "Civil Service",
+				"row": 2,
+                "prerequisites": ["Recorded History","Code of Laws"],
+			},
+			{
+				"name": "Guilds",
+				"row": 3,
+                "prerequisites": ["Code of Laws","Urban Infrastracture"],
+			},
+			{
+				"name": "Buttress",
+				"row": 4,
+                "prerequisites": ["Urban Infrastracture"],
+			},
+			{
+				"name": "Stirrups",
+				"row": 6,
+                "prerequisites": ["Urban Infrastracture","Military Training"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 10,
+		"era": "Post-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Education",
+				"row": 2,
+                "prerequisites": ["Theocracy","Civil Service"],
+			},
+            {
+				"name": "Optics",
+				"row": 3,
+                "prerequisites": ["Guilds"],
+			},
+			{
+				"name": "Machinery",
+				"row": 4,
+                "prerequisites": ["Guilds","Buttress"],
+			},
+			{
+				"name": "Castles",
+				"row": 5,
+                "prerequisites": ["Buttress"],
+			},
+			{
+				"name": "Metallurgy",
+				"row": 6,
+                "prerequisites": ["Stirrups","Fortifications"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 11,
+		"era": "Post-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Alchemy",
+				"row": 3,
+                "prerequisites": ["Education","Optics"],
+			},
+            {
+				"name": "Aprenticeship",
+				"row": 4,
+                "prerequisites": ["Optics","Machinery"],
+			},
+			{
+				"name": "Siege Engines",
+				"row": 7,
+                "prerequisites": ["Castles","Metallurgy"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 12,
+		"era": "Post-Classical Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Compass",
+				"row": 2,
+                "prerequisites": ["Alchemy","Aprenticeship"],
+			},
+            {
+				"name": "Paper Making",
+				"row": 3,
+                "prerequisites": ["Alchemy","Aprenticeship"],
+			},
+			{
+				"name": "Gunpowder",
+				"row": 7,
+                "prerequisites": ["Siege Engines"],
 			},
 		]
     },
