@@ -320,7 +320,7 @@
 			},
 			{
 				"name": "Metallurgy",
-				"row": 6,
+				"row": 7,
                 "prerequisites": ["Stirrups","Fortifications"],
 			},
 		]
