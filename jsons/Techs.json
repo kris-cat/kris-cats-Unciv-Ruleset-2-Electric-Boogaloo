@@ -429,7 +429,7 @@
                 "prerequisites": ["Printing Press"],
 			},
 			{
-				"name": "Economics",
+				"name": "Mercantilism",
 				"row": 4,
                 "prerequisites": ["Banking"],
 			},
@@ -451,12 +451,12 @@
             {
 				"name": "Enlightenment",
 				"row": 3,
-                "prerequisites": ["Humanism","Economics"],
+                "prerequisites": ["Humanism","Mercantilism"],
 			},
             {
 				"name": "Architecture",
 				"row": 4,
-                "prerequisites": ["Economics","Manufacturing"],
+                "prerequisites": ["Mercantilism","Manufacturing"],
 			},
 			{
 				"name": "Chemistry",
@@ -508,6 +508,31 @@
 	{
     	"columnNumber": 17,
 		"era": "Early Modern Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": 
+        [
+            {
+				"name": "Warships",
+				"row": 2,
+                "prerequisites": ["Square Rigging","Imperialism"],
+			},
+            {
+				"name": "Coking",
+				"row": 3,
+                "prerequisites": ["Natural History"],
+			},
+			{
+				"name": "Military Science",
+				"row": 6,
+                "prerequisites": ["Natural History","Siege Tactics","Flintlock"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 17,
+		"era": "Late Modern Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
