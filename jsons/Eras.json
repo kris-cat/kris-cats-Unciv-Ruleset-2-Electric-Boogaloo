@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ancient era",
+        "name": "Ancient Era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -14,7 +14,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "Classical era",
+        "name": "Classical Era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -30,7 +30,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "Post-Classical era",
+        "name": "Post-Classical Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
@@ -46,7 +46,7 @@
         "iconRGB": [190, 62, 128]
     }
     {
-        "name": "Pre-Modern era",
+        "name": "Early Modern Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
@@ -62,7 +62,7 @@
         "iconRGB": [190, 62, 128]
     }
     {
-        "name": "Modern era",
+        "name": "Late Modern Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
