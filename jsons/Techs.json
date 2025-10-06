@@ -530,7 +530,7 @@
 			},
 			{
 				"name": "Military Tactics",
-				"row": 4,
+				"row": 6,
                 "prerequisites": ["Bastion","Flintlock"],
 			},
 		]
