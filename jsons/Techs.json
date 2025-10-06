@@ -389,14 +389,19 @@
                 "prerequisites": ["Compass","Paper Making"],
 			},
             {
-				"name": "Printing Press",
+				"name": "Banking",
 				"row": 3,
                 "prerequisites": ["Paper Making"],
 			},
 			{
-				"name": "Banking",
+				"name": "Printing Press",
 				"row": 4,
                 "prerequisites": ["Paper Making"],
+			},
+			{
+				"name": "Manufacturing",
+				"row": 5,
+                "prerequisites": ["Paper Making","Gunpowder"],
 			},
 			{
 				"name": "Metal Casting",
@@ -414,29 +419,19 @@
 		"techs": 
         [
             {
-				"name": "Navigation",
-				"row": 1,
-                "prerequisites": ["Cartography"],
-			},
-            {
 				"name": "Exploration",
 				"row": 2,
-                "prerequisites": ["Cartography","Printing Press"],
+                "prerequisites": ["Cartography","Banking"],
 			},
 			{
 				"name": "Humanism",
-				"row": 3,
+				"row": 5,
                 "prerequisites": ["Printing Press"],
 			},
 			{
-				"name": "Mercantilism",
-				"row": 4,
-                "prerequisites": ["Banking"],
-			},
-			{
-				"name": "Manufacturing",
+				"name": "Steel",
 				"row": 6,
-                "prerequisites": ["Banking","Metal Casting"],
+                "prerequisites": ["Manufacturing","Metal Casting"],
 			},
 		]
     },
@@ -448,20 +443,30 @@
 		"wonderCost": 185,
 		"techs": 
         [
+			{
+				"name": "Colonization",
+				"row": 1,
+                "prerequisites": ["Exploration"],
+			},
+			{
+				"name": "Mercantilism",
+				"row": 3,
+                "prerequisites": ["Exploration"],
+			},
             {
 				"name": "Enlightenment",
-				"row": 3,
-                "prerequisites": ["Humanism","Mercantilism"],
+				"row": 4,
+                "prerequisites": ["Exploration","Humanism"],
 			},
             {
 				"name": "Architecture",
-				"row": 4,
-                "prerequisites": ["Mercantilism","Manufacturing"],
+				"row": 5,
+                "prerequisites": ["Humanism","Steel"],
 			},
 			{
 				"name": "Chemistry",
 				"row": 6,
-                "prerequisites": ["Manufacturing"],
+                "prerequisites": ["Steel"],
 			},
 		]
     },
@@ -476,25 +481,20 @@
             {
 				"name": "Square Rigging",
 				"row": 1,
-                "prerequisites": ["Navigation"],
+                "prerequisites": ["Colonization"],
 			},
             {
-				"name": "Imperialism",
-				"row": 2,
-                "prerequisites": ["Exploration","Enlightenment"],
-			},
-			{
-				"name": "Natural History",
+				"name": "Coking",
 				"row": 3,
-                "prerequisites": ["Enlightenment"],
+                "prerequisites": ["Mercantilism"],
 			},
 			{
-				"name": "Acoustics",
+				"name": "Constitution",
 				"row": 4,
                 "prerequisites": ["Enlightenment","Architecture"],
 			},
 			{
-				"name": "Siege Tactics",
+				"name": "Bastion",
 				"row": 5,
                 "prerequisites": ["Architecture","Chemistry"],
 			},
@@ -514,44 +514,24 @@
 		"techs": 
         [
             {
-				"name": "Warships",
+				"name": "Imperialism",
 				"row": 2,
-                "prerequisites": ["Square Rigging","Imperialism"],
+                "prerequisites": ["Square Rigging","Coking"],
 			},
             {
-				"name": "Coking",
+				"name": "Industrialisation",
 				"row": 3,
-                "prerequisites": ["Natural History"],
+                "prerequisites": ["Coking"],
 			},
 			{
-				"name": "Military Science",
-				"row": 6,
-                "prerequisites": ["Natural History","Siege Tactics","Flintlock"],
-			},
-		]
-    },
-	{
-    	"columnNumber": 17,
-		"era": "Late Modern Era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 185,
-		"techs": 
-        [
-            {
-				"name": "Warships",
-				"row": 2,
-                "prerequisites": ["Square Rigging","Imperialism"],
-			},
-            {
-				"name": "Coking",
-				"row": 3,
-                "prerequisites": ["Natural History"],
+				"name": "Nationalism",
+				"row": 4,
+                "prerequisites": ["Constitution"],
 			},
 			{
-				"name": "Military Science",
-				"row": 6,
-                "prerequisites": ["Natural History","Siege Tactics","Flintlock"],
+				"name": "Military Tactics",
+				"row": 4,
+                "prerequisites": ["Bastion","Flintlock"],
 			},
 		]
     },
