@@ -35,6 +35,12 @@
 	},
 	// Strategic Resources
 	{
+		"name": "Timber", "resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+		]
+	},
+	{
 		"name": "Horses", "resourceType": "Strategic", "revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Subtropical","Hill","Savannah"], "improvement": "Pasture", "improvementStats": {"production": 1},
 		"uniques": [
