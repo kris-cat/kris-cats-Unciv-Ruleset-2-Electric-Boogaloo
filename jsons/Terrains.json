@@ -150,7 +150,7 @@
 		"RGB": [255, 233, 148], 
 		"uniques": [
 			"[+1 Food] <in [{River} {non-[Savannah]}] tiles>",
-			"[+1 Production] <in [{Savannah} {non-[River]}] tiles>",
+			"[+1 Production] <in [{Savannah} {River}] tiles>",
             "Occurs at temperature between [0.5] and [1] and humidity between [0] and [0.1]",
 			"Occurs at temperature between [0.6] and [1] and humidity between [0.1] and [0.2]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.2] and [0.3]",
