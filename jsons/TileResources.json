@@ -29,10 +29,11 @@
         ]
 	},
 	{
-		"name": "Camels", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Arid"],
+		"name": "Camels", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Arid", "Flood plains"],
 		"gold": 1,
 		"improvement": "Pasture", "improvementStats": {"production": -1, "gold": 1},
 		"uniques": [
+			"Doesn't generate naturally <in [{Featureless} {Semiarid}] tiles>", "Doesn't generate naturally <in [{Featureless} {Subarctic}] tiles>",
 		]
 	},
 	{
