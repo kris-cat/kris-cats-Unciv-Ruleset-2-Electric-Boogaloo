@@ -22,14 +22,26 @@
 		]
 	},
     {
-		"name": "Cattle",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Savannah"],
+		"name": "Cattle", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Savannah"],
 		"food": 1,
-		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
+		"improvement": "Pasture", "improvementStats": {"production": 1},
 		"uniques": [
         ]
+	},
+	{
+		"name": "Camels", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Arid"],
+		"gold": 1,
+		"improvement": "Pasture", "improvementStats": {"production": -1, "gold": 1},
+		"uniques": [
+		]
+	},
+	{
+		"name": "Sheep", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Pasture", "improvementStats": {"production": -1,"food": 1},
+		"uniques": [
+			"Doesn't generate naturally <in [Arctic] tiles>",
+		]
 	},
     {
 		"name": "Deer",
