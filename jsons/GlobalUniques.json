@@ -10,7 +10,7 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
         "Provides [3] [Manpower]",
-        "Instantly gain [10] [stockpile]",
+        "Instantly gain [10] [Stability]",
         "Provides [1] [Manpower] <for every [Cities]>",
     ]
 }
