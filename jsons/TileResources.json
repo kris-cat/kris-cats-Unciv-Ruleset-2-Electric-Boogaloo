@@ -13,6 +13,14 @@
 		]
 	},
     //Bonus Resources
+	{
+		"name": "Wheat", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Subarctic","Continental","Temperate","Semiarid","Arid","Flood plains"],
+		"food": 1,
+		"improvement": "Farm", "improvementStats": {"production": 1},
+		"uniques": [
+			"Doesn't generate naturally <in [{Featureless} {Subarctic}] tiles>", "Doesn't generate naturally <in [{Featureless} {Arid}] tiles>",
+		]
+	},
     {
 		"name": "Cattle",
 		"resourceType": "Bonus",
