@@ -140,7 +140,7 @@
 			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.5] and [0.6]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
     {
@@ -168,7 +168,7 @@
 			"Occurs at temperature between [0.6] and [1] and humidity between [0.8] and [0.9]",
 			"Occurs at temperature between [0.7] and [1] and humidity between [0.7] and [0.8]",
 			"Occurs at temperature between [0.8] and [1] and humidity between [0.6] and [0.7]",
-			"Becomes [Alpine] when adjacent to [Mountain] <with [2] to [6] neighboring [Mountain] tiles> <in [Hill] tiles>"
+			"Becomes [Alpine] when adjacent to [Mountain] <in [Hill] tiles> <with [2] to [6] neighboring [Mountain] tiles>"
             ]
 	},
 	//Features
