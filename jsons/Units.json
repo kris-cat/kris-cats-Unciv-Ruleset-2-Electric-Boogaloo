@@ -87,6 +87,8 @@
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"Can only attack [City] units",
+			"Consumes [2] [Manpower]",
+			"Consumes [1] [Timber]",
 		],
 		"attackSound": "throw"
 	},
@@ -99,6 +101,7 @@
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
 			"Consumes [1] [Manpower]",
+			"Consumes [1] [Horses]",
 		],
 		"attackSound": "arrow"
 	},
@@ -110,7 +113,8 @@
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"uniques": [
-			"Consumes [2] [Manpower]",
+			"Consumes [1] [Manpower]",
+			"Consumes [1] [Horses]",
 		],
 		"attackSound": "arrow"
 	},
@@ -125,6 +129,7 @@
 		"requiredTech": "The Wheel",
 		"uniques": [
 			"Consumes [1] [Manpower]",
+			"Consumes [1] [Horses]",
 		],
 		"attackSound": "arrow"
 	},
