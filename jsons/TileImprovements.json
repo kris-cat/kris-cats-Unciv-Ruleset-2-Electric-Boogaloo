@@ -49,6 +49,14 @@
 		"shortcutKey": "M"
 	},
 	{
+		"name": "Quarry",
+		"production": 1,
+		"turnsToBuild": 12,
+		"techRequired": "Masonry",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	{
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest"],
 		"production": 1,
