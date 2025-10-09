@@ -114,4 +114,33 @@
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
+	// Luxury Resources
+	{
+		"name": "Gems", "resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Rainforest","Hill"],
+		"culture": 1, "improvement": "Mine", "improvementStats": {"gold": 2},
+		"uniques": []
+	},
+	{
+		"name": "Gold Ore", "resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Arid","Hill","Rainforest","Jungle"],
+		"gold": 1, "improvement": "Mine", "improvementStats": {"production": -1, "gold": 3},
+		"uniques": []
+	},
+	{
+		"name": "Silver", "resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Rainforest","Jungle","Subarctic","Temperate","Continental"],
+		"gold": 1, "improvement": "Mine", "improvementStats": {"gold": 2},
+		"uniques": []
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Arid","Semiarid","Temperate","Hill"],
+		"culture": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1, "gold": 1},
+		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
+					"Doesn't generate naturally <in [Fresh Water] tiles>"]
+	},
 ]
