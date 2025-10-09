@@ -83,6 +83,14 @@
 		"uniques": [
 		]
 	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+	},
 	// Strategic Resources
 	{
 		"name": "Timber", "resourceType": "Strategic",
@@ -160,7 +168,21 @@
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Rainforest","Tropical"],
-		"food": 1, "improvement": "Plantation", "improvementStats": {"food": 2,},
+		"food": 1, "improvement": "Plantation", "improvementStats": {"food": 2},
+		"uniques": []
+	},
+	{
+		"name": "Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1, "improvement": "Fishing Boats", "improvementStats": {"food": 1, "gold": 1,},
+		"uniques": []
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 1, "improvement": "Fishing Boats", "improvementStats": {"gold": 2},
 		"uniques": []
 	},
 	{
