@@ -145,10 +145,9 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Subtropical","Tropical","Marsh"],
+		"terrainsCanBeFoundOn": ["Flood plains","Subtropical","Tropical"],
 		"gold": 1, "improvement": "Plantation", "improvementStats": {"food": 1, "gold": 1},
-		"uniques": ["Doesn't generate naturally <in [Semiarid] tiles>", "Doesn't generate naturally <in [Subarctic] tiles>",
-					"Doesn't generate naturally <in [Land] tiles> <in tiles without [Fresh Water]>"]
+		"uniques": ["Doesn't generate naturally <in [Semiarid] tiles>", "Doesn't generate naturally <in [Subarctic] tiles>"]
 	},
 	{
 		"name": "Spices",
