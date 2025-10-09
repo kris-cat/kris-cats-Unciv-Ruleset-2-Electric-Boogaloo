@@ -137,10 +137,37 @@
 		"name": "Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Arid","Semiarid","Temperate","Hill"],
-		"culture": 1,
-		"improvement": "Quarry",
-		"improvementStats": {"production": 1, "gold": 1},
+		"culture": 1, "improvement": "Quarry", "improvementStats": {"production": 1, "gold": 1},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
 					"Doesn't generate naturally <in [Fresh Water] tiles>"]
 	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Flood plains","Subtropical","Tropical","Marsh"],
+		"gold": 2, "improvement": "Plantation", "improvementStats": {"food": 1, "gold": 1},
+		"uniques": ["Doesn't generate naturally <in [Semiarid] tiles>", "Doesn't generate naturally <in [Subarctic] tiles>",
+					"Doesn't generate naturally <in [Land] tiles> <in tiles without [Fresh Water]>"]
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Rainforest"],
+		"culture": 1, "improvement": "Plantation", "improvementStats": {"gold": 2},
+		"uniques": []
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Rainforest","Tropical"],
+		"food": 1, "gold": 1, "improvement": "Plantation", "improvementStats": {"food": 2,},
+		"uniques": []
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Deciduous Forest","Coniferous Forest","Marsh","Jungle","Rainforest"],
+		"gold": 2, "improvement": "Camp", "improvementStats": {"gold": 1},
+		"uniques": ["Doesn't generate naturally <in [Hill] tiles>",]
+	}
 ]
