@@ -92,7 +92,8 @@
 	},
 	{
 		"name": "Horses", "resourceType": "Strategic", "revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Subtropical","Hill","Savannah"], "improvement": "Pasture", "improvementStats": {"production": 1},
+		"terrainsCanBeFoundOn": ["Continental","Temperate","Semiarid","Subtropical","Hill","Savannah"], 
+		"production": 1, "improvement": "Pasture", "improvementStats": {"production": 1},
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
@@ -101,7 +102,7 @@
 	{
 		"name": "Copper", "resourceType": "Strategic", "revealedBy": "Bronze Working",
 		"terrainsCanBeFoundOn": ["Arctic","Subarctic","Continental","Temperate","Semiarid","Subtropical","Arid","Tropical","Hill"],
-		"improvement": "Mine", "improvementStats": {"production": 1, "gold": 1},
+		"production": 1, "improvement": "Mine", "improvementStats": {"gold": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -109,7 +110,7 @@
 	{
 		"name": "Iron", "resourceType": "Strategic", "revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Arctic","Subarctic","Continental","Temperate","Semiarid","Subtropical","Arid","Tropical","Hill","Marsh","Tundra Bog"],
-		"improvement": "Mine", "improvementStats": {"production": 1, "science": 1},
+		"production": 1, "improvement": "Mine", "improvementStats": {"science": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
@@ -145,7 +146,7 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Subtropical","Tropical","Marsh"],
-		"gold": 2, "improvement": "Plantation", "improvementStats": {"food": 1, "gold": 1},
+		"gold": 1, "improvement": "Plantation", "improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Doesn't generate naturally <in [Semiarid] tiles>", "Doesn't generate naturally <in [Subarctic] tiles>",
 					"Doesn't generate naturally <in [Land] tiles> <in tiles without [Fresh Water]>"]
 	},
@@ -160,14 +161,14 @@
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Rainforest","Tropical"],
-		"food": 1, "gold": 1, "improvement": "Plantation", "improvementStats": {"food": 2,},
+		"food": 1, "improvement": "Plantation", "improvementStats": {"food": 2,},
 		"uniques": []
 	},
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Deciduous Forest","Coniferous Forest","Marsh","Jungle","Rainforest"],
-		"gold": 2, "improvement": "Camp", "improvementStats": {"gold": 1},
+		"gold": 1, "improvement": "Camp", "improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Doesn't generate naturally <in [Hill] tiles>",]
 	}
 ]
