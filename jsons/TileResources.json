@@ -124,13 +124,13 @@
 	},
 	{
 		"name": "Gold Ore", "resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Arid","Hill","Rainforest","Jungle"],
+		"terrainsCanBeFoundOn": ["Arid","Hill"],
 		"gold": 1, "improvement": "Mine", "improvementStats": {"production": -1, "gold": 3},
 		"uniques": []
 	},
 	{
 		"name": "Silver", "resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Rainforest","Jungle","Subarctic","Temperate","Continental"],
+		"terrainsCanBeFoundOn": ["Subarctic","Hill"],
 		"gold": 1, "improvement": "Mine", "improvementStats": {"gold": 2},
 		"uniques": []
 	},
