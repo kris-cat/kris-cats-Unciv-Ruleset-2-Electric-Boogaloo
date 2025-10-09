@@ -38,7 +38,7 @@
 		]
 	},
 	{
-		"name": "Maize", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Continental","Semiarid","Deciduous Forest"],
+		"name": "Maize", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Temperate","Semiarid","Deciduous Forest"],
 		"food": 1,
 		"improvement": "Farm", "improvementStats": {"food": -1, "gold": 2},
 		"uniques": [
