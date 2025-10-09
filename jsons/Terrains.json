@@ -17,6 +17,16 @@
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
+	{
+		"name": "Grassland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": [
+			"Doesn't generate naturally", "Will not be displayed in Civilopedia"
+		]
+    },
     {
 		"name": "Lakes",
 		"type": "Water",
