@@ -13,4 +13,18 @@
 			"Indicates the capital city",
 		]
 	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"hurryCostModifier": 25
+		"requiredTech": "Pottery"
+		"uniques": [
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Rye] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
+			"[+1 Food] from [Millet] tiles [in this city]"
+		]
+	},
 ]
