@@ -120,7 +120,7 @@
 	},
 	{
 		"name": "Chariot Archer",
-		"unitType": "Ranged Cavalry",
+		"unitType": "Heavy Cavalry",
 		"range": 1,
 		"movement": 4,
 		"strength": 6,
