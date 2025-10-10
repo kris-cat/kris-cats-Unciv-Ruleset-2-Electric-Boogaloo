@@ -6,7 +6,6 @@
     {
         "name": "Scouting",
         "movementType": "Land"
-        "uniques": ["Ignores terrain cost","[+1] Sight",]
     },
     {
         "name": "Land Melee",
@@ -15,7 +14,6 @@
     {
         "name": "Anti-Cavalry",
         "movementType": "Land"
-        "uniques": ["[50]% Strength <vs [Light Cavalry] units>","[50]% Strength <vs [Heavy Cavalry] units>","[50]% Strength <vs [Ranged Cavalry] units>"]
     },
     {
         "name": "Ranged",
@@ -24,26 +22,17 @@
     {
         "name": "Skirmisher",
         "movementType": "Land"
-        "uniques": ["Can move after attacking","Ignores Zone of Control"]
     },
     {
         "name": "Siege",
         "movementType": "Land"
-        "uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight",]
     },
     {
         "name": "Light Cavalry",
         "movementType": "Land"
-        "uniques": ["[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus","No movement cost to pillage",]
     },
     {
         "name": "Heavy Cavalry",
         "movementType": "Land"
-         "uniques": ["[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus",]
-    },
-    {
-        "name": "Ranged Cavalry",
-        "movementType": "Land"
-         "uniques": ["[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus",]
     },
 ]
